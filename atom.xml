@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-07-04T08:47:04.962Z</updated>
+  <updated>2018-07-06T08:00:48.204Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test</title>
+    <link href="http://yoursite.com/2018/07/01/test/"/>
+    <id>http://yoursite.com/2018/07/01/test/</id>
+    <published>2018-07-01T07:53:49.000Z</published>
+    <updated>2018-07-06T08:00:48.204Z</updated>
+    
+    <content type="html"><![CDATA[<p>*This is for test<br>    &gt;毛主席说过：@#……@￥……￥%&amp;@#￥！%<br><a href="https://user.qzone.qq.com/523301264" target="_blank" rel="noopener">QQ空间</a></p><figure class="highlight plain"><figcaption><span><stdio.h></stdio.h></span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">printf(&quot;康梦玲是猪\n&quot;);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;*This is for test&lt;br&gt;    &amp;gt;毛主席说过：@#……@￥……￥%&amp;amp;@#￥！%&lt;br&gt;&lt;a href=&quot;https://user.qzone.qq.com/523301264&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Q
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>我们一起学猫叫</title>
