@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-08-14T14:56:41.235Z</updated>
+  <updated>2018-08-17T13:53:23.259Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>阿里云Minecraft服务器</title>
+    <link href="http://yoursite.com/2018/08/15/%E9%98%BF%E9%87%8C%E4%BA%91Minecraft%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    <id>http://yoursite.com/2018/08/15/阿里云Minecraft服务器/</id>
+    <published>2018-08-15T13:21:57.000Z</published>
+    <updated>2018-08-17T13:53:23.259Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>暂时写给自己看的</strong><br>Ubuntu系统<br>工具：Putty filezilla<br>Linux 运行jar包： java -jar xxx.jar<br>用户名root 密码<br>选择系统语言： dpkg-reconfigure locales<br>zh_CN.UTF-8 空格 回车 回车<br>exit重开生效<br>apt-get update<br>apt-get upgrade<br>Y回车<br>apt-get install nano wget axel screen zip unzip sudo openjdk-8-jre<br><img src="http://www.oracle.com/technetwork/java/javase/downloads/index.html" alt="Java8"><br>点图标<br>Accept License Agreement<br>Linux x64    .tar.gz<br>axel (Java地址)<br>下载完……<br>ls<br>tar zxvf (刚下载的)<br>ls<br>mkdir /usr/java<br>mv xxx /usr/java<br>update-alternatives –install /usr/bin/java java /usr/java/xxx/bin/java 1100<br>update-alternatives –install /usr/bin/javac javac /usr/java/xxx/bin/javac 1100<br>java –version<br>useradd -d /home/server -m -s /bin/bash server<br>passwd server<br>nano /etc/sudoers<br>找到</p><blockquote><h1 id="User-privilege-specification"><a href="#User-privilege-specification" class="headerlink" title="User privilege specification"></a>User privilege specification</h1><p>root ALL=(ALL:ALL) ALL</p></blockquote><p>新开一行<br>server TAB ALL=(ALL:ALL) ALL<br>Ctrl+O 回车 Ctrl+X<br>exit<br>用server登录<br>下载服务端<br>nano start.sh</p><p>#!/bin/sh<br>java -Xmx1024M -Xms512M -jar xxx.jar nogui<br>Ctrl+O 回车 Ctrl+X<br>chmod +x start.sh<br>nano eula.txt<br>eula=true<br>Ctrl+O 回车 Ctrl+X<br>online-mode:false<br>screen -S server<br>./start.sh<br>Ctrl+A Ctrl+D<br>screen –r server<br>screen -x server</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;暂时写给自己看的&lt;/strong&gt;&lt;br&gt;Ubuntu系统&lt;br&gt;工具：Putty filezilla&lt;br&gt;Linux 运行jar包： java -jar xxx.jar&lt;br&gt;用户名root 密码&lt;br&gt;选择系统语言： dpkg-reconfigure 
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>小值打饭</title>
