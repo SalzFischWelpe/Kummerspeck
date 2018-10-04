@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-08-17T13:55:53.392Z</updated>
+  <updated>2018-10-04T14:47:41.684Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>html登录页面</title>
+    <link href="http://yoursite.com/2018/10/04/html/"/>
+    <id>http://yoursite.com/2018/10/04/html/</id>
+    <published>2018-10-04T14:46:42.000Z</published>
+    <updated>2018-10-04T14:47:41.684Z</updated>
+    
+    <content type="html"><![CDATA[<p>&lt;!DOCTYPE html&gt;</p><html lang="zh-CN"><br><head><br>    <meta charset="utf-8"><br>    <title>登录</title><br>    <style><br>        .login_system{<br>            width: 1500px;<br>            height: 600px;<br>            background-color: #6495ED;<br>            margin: 50px auto;<br>        }<br>        .login_box{<br>            width: 500px;<br>            height: 300px;<br>            background-color: #ffffff;<br>            margin: auto;<br>        }<br>        .title_1{<br>            width: 500px;<br>            height: 50px;<br>            color: #ffffff;<br>            background-color: #696969;<br>            margin: auto;<br>            font-size: 20pt;<br>            text-align: center;<br>            padding-top: 1px;<br>            border-bottom: 2px solid #ffffff;<br>        }<br>        .login_body{<br>            width: 500px;<br>            height: 250px;<br>            background-color: #A9A9A9;<br>            margin: auto;<br>        }<br>        .form{<br>            padding-top: 20px;<br>        }<br>        .text{<br>            display: block;<br>            width: 300px;<br>            height: 30px;<br>            font-size: 16px;<br>            border-radius: 5px;<br>            border: 0;<br>            margin: auto;<br>            padding-left: 5px;<br>        }<br>        .code{<br>            display: inline;<br>            width: 100px;<br>            height: 30px;<br>            font-size: 16px;<br>            border-radius: 5px;<br>            border: 0;<br>            margin-left: 98px;<br>            padding-left: 5px;<br>        }<br>        .function{<br>            text-align: center;<br>            padding-top: 15px;<br>        }<br>        .login_button{<br>            width: 300px;<br>            height: 30px;<br>            font-size: 18px;<br>            border-radius: 10px;<br>            background-color: #0000FF;<br>            border: 0;<br>        }<br>        .get_code{<br>            color: #ffffff;<br>            background-color: #F4A460;<br>            font-size: 16pt;<br>            padding: 10px 35px;<br>            margin-left: 90px;<br>            cursor: pointer;<br>            }<br>    </style><br></head><br><body onload="changeCode()"><br>    <div class="login_system"><br>        <div style="height:100px;"></div><br>        <form action="index.html" method="post" onsubmit="check()"><br>            <div class="login_box"><br>                <div class="title_1"><br>                    不知道取什么名了反正这是一个登录页面<br>                </div><br>                <div class="login_body"><br>                    <div class="form"><br>                        <input type="text" name="username" id="username" class="text" maxlength="32" placeholder="这里是用户名"><br>                    </div><br>                    <div class="form"><br>                        <input type="password" name="password" id="password" class="text" maxlength="16" placeholder="这里是密码"><br>                    </div><br>                    <div class="form"><br>                        <input type="text" name="code" id="input_code" class="code" maxlength="4" placeholder="这里是验证码"><span class="get_code" id="code" title="看不清楚要换一张QAQ"></span><br>                    </div><br>                    <div class="function"><br>                    <a href="find_password.html">找回密码</a><br>                    <br><br>                    <input type="submit" value="登录" class="login_button" onmouseover="this.style.backgroundColor='#4169E1'" onmouseout="this.style.backgroundColor='#0000FF'"><br>                    </div><br>                </div><br>            </div><br>        </form><br>        <div style="text-align: center;"><br>            还没账号？<a href="register.html">注册新用户</a><br>        </div><br>    </div><br>    <div style="text-align: center;"><br>    <p>版权所有&copy; Copyright 2018  SalzFischKatze</p><br>    </div><br></body><br><script type="text/javascript"><br>        var code;<br>        document.getElementById(“code”).onclick=changeCode;<br>        function changeCode(){<br>            var arrays=new Array(‘1’,’2’,’3’,’4’,’5’,’6’,’7’,’8’,’9’,’0’,’a’,’b’,’c’,’d’,’e’,’f’,’g’,’h’,’i’,’j’,’k’,’l’,’m’,’n’,’o’,’p’,’q’,’r’,’s’,’t’,’u’,’v’,’w’,’x’,’y’,’z’,’A’,’B’,’C’,’D’,’E’,’F’,’G’,’H’,’I’,’J’,’K’,’L’,’M’,’N’,’O’,’P’,’Q’,’R’,’S’,’T’,’U’,’V’,’W’,’X’,’Y’,’Z’);<br>            code=’’;<br>            for(var i=0;i&lt;4;i++){<br>                var r=parseInt(Math.random()*arrays.length);<br>                code+=arrays[r];<br>            }<br>            document.getElementById(‘code’).innerHTML=code;<br>        }<br>        function check(){<br>            var input_code=document.getElementById(‘input_code’).value;<br>            if(input_code.toLowerCase()==code.toLowerCase())<br>                return true;<br>            alert(“验证码打错了哟QuQ”);<br>            return false;<br>        }<br></script><br></html>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/p&gt;
+&lt;html lang=&quot;zh-CN&quot;&gt;&lt;br&gt;&lt;head&gt;&lt;br&gt;    &lt;meta charset=&quot;utf-8&quot;&gt;&lt;br&gt;    &lt;title&gt;登录&lt;/title&gt;&lt;br&gt;    &lt;style&gt;&lt;br&gt;        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>阿里云Minecraft服务器</title>
